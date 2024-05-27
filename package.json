@@ -1,0 +1,34 @@
+{
+  "name": "fetch-request-interceptor",
+  "version": "1.0.0",
+  "description": "Wrapper on fetch to modify the request ",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tsc"
+  },
+  "author": "Abdul Rehman",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "intercept",
+    "interceptor",
+    "fetch",
+    "axios",
+    "api",
+    "apisauce",
+    "Nextjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbdulRehman-1/fetch-request-interceptor"
+  },
+  "dependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
